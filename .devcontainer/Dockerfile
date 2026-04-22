@@ -20,6 +20,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     curl \
     && rm -rf /var/lib/apt/lists/*
 
+# openspec をインストール
+RUN npm install -g @fission-ai/openspec@latest
+
 # 作業ディレクトリを設定
 WORKDIR /workspace
 
