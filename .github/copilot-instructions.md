@@ -14,6 +14,8 @@
 - ドキュメント名は、作業内容を簡潔に表すものにすること。
   - 例: `docker-engine-in-wsl.md`、`openspec-setup.md`など。
 - ドキュメントはプロジェクトの`docs/`ディレクトリに保存すること。
+- 技術スタックの選定や設計の決定など、重要な意思決定はADR（Architecture Decision Record）形式で記録すること。
+  - 例: `docs/adr/adr-001-use-tauri.md`など。
 
 ## コミットメッセージ
 
